@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  background: url(./font/téléchargement.jpeg) center/cover;
+  min-height: 100%;
+  overflow: hidden;
+}
+.entete {
+  /* background: url(./font2/font22.jpeg) center/cover; */
+  height: 600px;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.entete h1 {
+  font-size: 1000%;
+  border-bottom: 4px solid white;
+  background-color: rgba(0, 0, 0, 0.692);
+  border-radius: 20px;
+  box-shadow: 0 2px 9px black;
+}
+.entete span {
+  color: gold;
+}
+.bas {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.ba {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 260px;
+  /* background-color: black; */
+  align-items: center;
+}
+.b1 button {
+  width: 12rem;
+  height: 50px;
+  font-weight: bolder;
+  background-color: gold;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 9px black;
+  cursor: pointer;
+}
+.connect button {
+  width: 10rem;
+  height: 50px;
+  font-weight: bolder;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 9px black;
+  cursor: pointer;
+}
+.modale-inscription {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  position: absolute;
+  margin: 5% 6%;
+  height: 75%;
+  width: 90%;
+  box-shadow: 0 2px 9px black;
+  flex-direction: column;
+  display: none;
+}
+.modale-entete {
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  height: 10%;
+  border-bottom: 1px solid black;
+}
+.modale-corps {
+  /* background-color: red; */
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.user {
+  height: 50%;
+  background: url(./font/téléchargement\ \(2\).jpeg) center/cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.for-inscription {
+  background-color: #171427b6;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.nom {
+  /* margin-left: -30%; */
+  margin-top: -2%;
+}
+
+.Prenom {
+  /* margin-left: -30%; */
+  margin-top: -2%;
+}
+.mail {
+  /* margin-left: -30%; */
+  margin-top: -2%;
+}
+::placeholder {
+  font-size: 20px;
+}
+.for-inscription input {
+  /* width: 200%;
+  height: 150%; */
+  /* margin-top: -20px; */
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  outline: none;
+  width: 500px;
+  height: 30px;
+}
+
+.buton-envoi {
+  /* height: 15%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(255, 217, 0, 0.733); */
+  width: 100%;
+  height: 15%;
+}
+.buton-envoi button {
+  width: 30%;
+  height: 30%;
+  font-size: 20px;
+  box-shadow: 0 2px 9px black;
+  cursor: pointer;
+  background-color: #171427b6;
+}
+.userlogo {
+  font-size: 1000%;
+}
+.titre h2 {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top-right-radius: 20px;
+  background-color: white;
+}
+.inscrip {
+  cursor: pointer;
+}
+
+.modale-seconnecter {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  position: absolute;
+  margin: 5% 6%;
+  height: 75%;
+  width: 90%;
+  box-shadow: 0 2px 9px black;
+  flex-direction: column;
+  display: none;
+}
+.modale-entete2 {
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  height: 10%;
+  border-bottom: 1px solid black;
+}
+.titre2 h2 {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top-right-radius: 20px;
+  background-color: white;
+}
+.inscrip2 {
+  cursor: pointer;
+}
